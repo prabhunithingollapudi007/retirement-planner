@@ -28,9 +28,11 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/@fortawesome/fontawesome-free/css/brands.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/@fortawesome/fontawesome-free/js/brands.min.js"]
           },
           "configurations": {
             "production": {
